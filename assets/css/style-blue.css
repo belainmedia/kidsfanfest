@@ -1,10 +1,16 @@
 @charset "UTF-8";
 /*----------------------------------------------------------------------
 
- [Master Stylesheet : Kidsfanfest]
+ [Master Stylesheet : Emeet]
 ------------------------------------------------------------------------
- Project:           Kidsfanfest - Event, Conference & Meetup 
+ Project:           Emeet - Event, Conference & Meetup Html Template
 ------------------------------------------------------------------------
+ Version:           1.0.0
+ Author:            LogicHunt, Themearth
+ Copyright:         Copyright (C) 2018 themearth.com. All Rights Reserved By LogicHunt(http://logichunt.com/).
+ Websites:          http://logichunt.com, http://themearth.com
+ Contact/Support:   logichunt.info@gmail.com
+-------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
 
@@ -52,13 +58,12 @@
 /*-------------------------------------------------------------------*/
 /* 1.1 TYPOGRAPHY
 ---------------------------------------------------------------------*/
-
 html {
   font-size: 62.5%;
 }
 body {
   background: #f1f1f1;
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -69,7 +74,7 @@ font-family: 'Londrina Solid', cursive;
   line-height: 2.6rem;
 }
 p {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -90,7 +95,7 @@ h6 {
 }
 h1,
 .h1 {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 68px;
   line-height: 102px;
   font-size: 6.8rem;
@@ -99,7 +104,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 h2,
 .h2 {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 42px;
   line-height: 63px;
   font-size: 4.2rem;
@@ -113,7 +118,7 @@ h3,
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
   line-height: 4.0rem;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
 }
 h3 a,
@@ -122,7 +127,7 @@ h3 a,
 }
 h3 a:hover,
 .h3 a:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 h4,
 .h4 {
@@ -131,7 +136,7 @@ h4,
   font-size: 1.6rem;
   line-height: 2.4000000000000004rem;
   line-height: 2.0rem;
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
 }
 h4 a,
@@ -140,7 +145,7 @@ h4 a,
 }
 h4 a:hover,
 .h4 a:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 h5,
 .h5 {
@@ -167,13 +172,13 @@ table th {
   padding: .5rem 1px;
 }
 .lgx-table thead tr {
-  background: rgba(85, 75, 185, 0.2);
+  background: rgba(25, 118, 210, 0.2);
 }
 .lgx-table thead tr th {
   border-bottom: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   color: #1b273d;
@@ -184,27 +189,27 @@ table th {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 4px solid #f9f9f9;
-  background: rgba(85, 75, 185, 0.05);
+  background: rgba(25, 118, 210, 0.05);
   text-align: center;
   border-right: 2px solid #f9f9f9;
 }
 .lgx-table tbody tr td:hover,
 .lgx-table tbody tr th:hover {
-  background: rgba(85, 75, 185, 0.1);
+  background: rgba(25, 118, 210, 0.1);
 }
 .lgx-table tbody tr th {
-  background: rgba(85, 75, 185, 0.1);
+  background: rgba(25, 118, 210, 0.1);
 }
 a {
   text-decoration: none;
-  color: #483fa1;
+  color: #1564b2;
   outline: 0;
 }
 a:focus,
 a:hover,
 a.active {
   text-decoration: none;
-  color: #7870c7;
+  color: #378fe7;
   outline: 0;
   -moz-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -225,7 +230,7 @@ input[type="button"]:active {
   padding: 13rem 0;
 }
 blockquote {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   overflow: hidden;
   color: #1b273d;
@@ -246,7 +251,7 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 2.4000000000000004rem;
 }
 blockquote p {
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -255,7 +260,7 @@ blockquote p {
 }
 blockquote footer {
   float: none !important;
-  color: #554bb9;
+  color: #1976d2;
 }
 blockquote:after {
   content: "\f10e";
@@ -267,7 +272,7 @@ blockquote:after {
   line-height: 30px;
   font-size: 2rem;
   line-height: 3rem;
-  color: #554bb9;
+  color: #1976d2;
   opacity: .3;
 }
 blockquote:before {
@@ -280,7 +285,7 @@ blockquote:before {
   line-height: 30px;
   font-size: 2rem;
   line-height: 3rem;
-  color: #554bb9;
+  color: #1976d2;
   opacity: .3;
   text-align: center;
 }
@@ -289,7 +294,7 @@ blockquote:before {
   margin-left: 0;
 }
 .lgx-social li {
-  color: #554bb9;
+  color: #1976d2;
   list-style-type: none;
   display: inline-block;
   padding: 0;
@@ -315,8 +320,8 @@ blockquote:before {
   line-height: 45px;
 }
 .lgx-social li:hover {
-  background: #554bb9;
-  color: #554bb9;
+  background: #1976d2;
+  color: #1976d2;
   border-radius: 50%;
 }
 .lgx-social li:hover a {
@@ -324,7 +329,7 @@ blockquote:before {
   color: inherit;
 }
 .lgx-social:hover > li {
-  color: #554bb9;
+  color: #1976d2;
   opacity: 0.3;
 }
 .lgx-social:hover > li a {
@@ -371,7 +376,7 @@ textarea.form-control {
   margin-top: -1.6rem;
 }
 .lgx-heading .heading {
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 42px;
   line-height: 63px;
   font-size: 4.2rem;
@@ -382,7 +387,7 @@ textarea.form-control {
   text-transform: uppercase;
 }
 .lgx-heading .subheading {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-size: 2rem;
@@ -399,13 +404,13 @@ font-family: 'Londrina Solid', cursive;
   color: #fff;
 }
 .lgx-subheading {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 24px;
   line-height: 36px;
   font-size: 2.4rem;
   line-height: 3.5999999999999996rem;
   text-align: center;
-  color: #554bb9;
+  color: #1976d2;
   text-transform: uppercase;
   margin-bottom: 3.9rem;
   margin-top: 0;
@@ -437,11 +442,11 @@ button,
   font-size: 14px;
   background: #fff;
   margin: 0 auto;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   padding: 1.5rem 4rem;
   display: inline-block;
   letter-spacing: .1rem;
-  background: #554bb9;
+  background: #1976d2;
   -moz-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -529,7 +534,7 @@ button:hover:after,
 }
 .lgx-btn-white {
   background: #fff;
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-btn-white:after {
   background: url(../img/dots4.png) 0 0 repeat;
@@ -537,7 +542,7 @@ button:hover:after,
   opacity: .3;
 }
 .lgx-btn-white:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 .mfp-wrap .wpcf7-submit:after,
 .mfp-wrap .lgx-submit:after,
@@ -6143,7 +6148,7 @@ button:hover:after,
   animation-timing-function: linear;
 }
 .lgx-header .lgx-navbar .lgx-nav li a {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -6157,21 +6162,21 @@ font-family: 'Londrina Solid', cursive;
 }
 .lgx-header .lgx-navbar .lgx-nav li a:hover {
   background: transparent;
-  color: #554bb9;
+  color: #1976d2;
   opacity: 1;
 }
 .lgx-header .lgx-navbar .lgx-nav .active a {
   background: transparent;
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-header .lgx-navbar .lgx-nav .dropdown-menu {
-  background: rgba(85, 75, 185, 0.98);
+  background: rgba(25, 118, 210, 0.98);
   border: 0;
   border-radius: 0;
   padding: 1rem .5rem;
 }
 .lgx-header .lgx-navbar .lgx-nav .dropdown-menu li a {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   padding: .6rem 1.5rem !important;
   font-size: 14px;
@@ -6197,7 +6202,7 @@ font-family: 'Londrina Solid', cursive;
 .lgx-header .lgx-navbar .lgx-nav .dropdown-menu li a:focus {
   opacity: 1;
   background: rgba(255, 255, 255, 0.7);
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-header .lgx-navbar .lgx-logo {
   -webkit-animation-name: fadeInRight;
@@ -6230,7 +6235,7 @@ font-family: 'Londrina Solid', cursive;
   position: relative;
 }
 .lgx-header .lgx-nav-right .lgx-cart .notification {
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   position: absolute;
   top: -10px;
   left: 24px;
@@ -6253,7 +6258,7 @@ font-family: 'Londrina Solid', cursive;
   color: inherit;
 }
 .lgx-header .lgx-nav-right .lgx-search a:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-header .lgx-container {
   max-width: 1140px;
@@ -6277,14 +6282,14 @@ font-family: 'Londrina Solid', cursive;
 .header-top .header-top-inner .contact ul li i {
   font-size: 20px;
   font-size: 2rem;
-  color: #554bb9;
+  color: #1976d2;
   opacity: .7;
   margin-right: .4rem;
   position: relative;
   top: 2px;
 }
 .header-top .header-top-inner .contact ul .question-text {
-  color: #554bb9;
+  color: #1976d2;
   font-weight: 700;
   margin-right: .5rem;
   display: inline-block;
@@ -6297,13 +6302,13 @@ font-family: 'Londrina Solid', cursive;
   margin-right: 1rem;
 }
 .header-top .header-top-inner .right-menu .login-register a {
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   background: rgba(255, 255, 255, 0.1);
-  color: #554bb9;
+  color: #1976d2;
   padding: 15px 2rem;
 }
 .header-top .header-top-inner .right-menu .login-register a:hover {
-  background: #554bb9;
+  background: #1976d2;
   color: #fff;
 }
 .header-top .header-top-inner .right-menu ul li {
@@ -6318,7 +6323,7 @@ font-family: 'Londrina Solid', cursive;
   color: #999;
 }
 .header-top .header-top-inner .right-menu ul li:hover a {
-  color: #554bb9;
+  color: #1976d2;
 }
 .header-top .header-top-inner .right-menu ul li:hover a i {
   opacity: 1;
@@ -6371,10 +6376,10 @@ font-family: 'Londrina Solid', cursive;
   padding: 1rem 0;
 }
 .lgx-header-background-brand .lgx-navbar {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-header-background-brand-full {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-header-background-black {
   background: #1b273d;
@@ -6403,10 +6408,10 @@ font-family: 'Londrina Solid', cursive;
   color: inherit;
 }
 .lgx-header .menu-onscroll .lgx-nav-right .lgx-search a:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-header .menu-onscroll .lgx-toggle {
-  color: #554bb9;
+  color: #1976d2;
   top: 15px;
 }
 .lgx-header .menu-onscroll .lgx-navbar .lgx-logo-fixed {
@@ -6431,7 +6436,7 @@ font-family: 'Londrina Solid', cursive;
 }
 .lgx-header .menu-onscroll .lgx-navbar .lgx-nav .active a {
   background: transparent;
-  color: #554bb9;
+  color: #1976d2;
   opacity: 1;
 }
 .lgx-header .menu-onscroll .lgx-navbar .lgx-logo {
@@ -6597,13 +6602,13 @@ font-family: 'Londrina Solid', cursive;
     margin-top: 11px;
   }
   .navbar-default .navbar-toggle span {
-    background-color: #554bb9 !important;
+    background-color: #1976d2 !important;
     width: 26px;
     height: 3px;
   }
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #554bb9;
+    background-color: #1976d2;
   }
   .navbar-default .navbar-toggle:focus span,
   .navbar-default .navbar-toggle:hover span {
@@ -6767,7 +6772,7 @@ font-family: 'Londrina Solid', cursive;
   background-size: cover;
 }
 .lgx-banner14 {
-  background: url('https://hijrahfest.com/application/views/front/fullwidth/assets/img/gallery/32.jpg') top center no-repeat;
+  background: url('http://placehold.it/1920x912') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -6812,7 +6817,7 @@ font-family: 'Londrina Solid', cursive;
   margin: 0 auto;
 }
 .lgx-banner-info .subtitle {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 68px;
   line-height: 102px;
   font-size: 6.8rem;
@@ -6824,7 +6829,7 @@ font-family: 'Londrina Solid', cursive;
 }
 .lgx-banner-info .title {
   margin: 0;
- font-family: 'Londrina Solid', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 110px;
   line-height: 165px;
   font-size: 11rem;
@@ -6852,7 +6857,7 @@ font-family: 'Londrina Solid', cursive;
   color: #00acee;
 }
 .lgx-banner-info .date {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -6865,7 +6870,7 @@ font-family: 'Londrina Solid', cursive;
   color: #efa506;
 }
 .lgx-banner-info .location {
-font-family: 'Londrina Solid', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -6958,7 +6963,7 @@ font-family: 'Londrina Solid', cursive;
   color: #efa506;
 }
 .lgx-banner-info-circle .info-circle-inner .date span {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   text-transform: uppercase;
   font-size: 42px;
@@ -6987,7 +6992,7 @@ font-family: 'Londrina Solid', sans-serif;
   letter-spacing: -10px;
 }
 .lgx-banner-info-date .date span {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   text-transform: uppercase;
   font-size: 42px;
@@ -7002,7 +7007,7 @@ font-family: 'Londrina Solid', sans-serif;
   top: 50%;
 }
 .lgx-banner-info-date .location {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -7020,7 +7025,7 @@ font-family: 'Londrina Solid', sans-serif;
   padding-left: 2rem;
 }
 .lgx-banner-info-homeone .subtitle {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 68px;
   line-height: 102px;
   font-size: 6.8rem;
@@ -7032,7 +7037,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-banner-info-homeone .title {
   margin: 0;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 110px;
   line-height: 165px;
   font-size: 11rem;
@@ -7107,7 +7112,7 @@ font-family: 'Londrina Solid', sans-serif;
   font-size: 4.2rem;
   line-height: 6.300000000000001rem;
   font-weight: 900;
-  color: #554bb9;
+  color: #1976d2;
   margin: 0;
   line-height: 4.2rem;
 }
@@ -7142,7 +7147,7 @@ font-family: 'Londrina Solid', sans-serif;
   font-size: 6.8rem;
   line-height: 10.2rem;
   font-weight: 900;
-  color: #554bb9;
+  color: #1976d2;
   margin: 0;
   line-height: 7rem;
 }
@@ -7321,7 +7326,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-owlgallery,
 .lgx-owlspeacial {
@@ -7440,7 +7445,7 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 49px;
 }
 .lgx-slider .owl-controls .owl-nav [class*=owl-]:hover {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-slider .owl-prev,
 .lgx-slider .owl-next {
@@ -8160,7 +8165,7 @@ lgx-zoomInUp
   bottom: 5%;
   height: 95%;
   width: 80%;
-  border: 16px solid #554bb9;
+  border: 16px solid #1976d2;
   border-radius: 16px;
   z-index: 1;
   opacity: .7;
@@ -8235,7 +8240,7 @@ lgx-zoomInUp
   font-size: 6.8rem;
   line-height: 10.2rem;
   line-height: 8.5rem;
-  color: #554bb9;
+  color: #1976d2;
   border: 8px solid #ddd;
   width: 110px;
   height: 110px;
@@ -8253,7 +8258,7 @@ lgx-zoomInUp
 .about-date-area p span {
   display: block;
   color: #1b273d;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .05rem;
@@ -8280,7 +8285,7 @@ font-family: 'Londrina Solid', sans-serif;
   margin: 0;
 }
 .lgx-about-content-area .lgx-heading .subheading {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #ec398b;
   font-size: 20px;
   line-height: 30px;
@@ -8427,7 +8432,7 @@ font-family: 'Londrina Solid', sans-serif;
   transition-duration: 0.3s;
 }
 .lgx-single-speaker figure figcaption {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -8448,7 +8453,7 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 39px;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
-  color: #554bb9;
+  color: #1976d2;
   padding: 0 .3rem;
 }
 .lgx-single-speaker .social-group {
@@ -8480,7 +8485,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-single-speaker .speaker-info .subtitle {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-size: 1.4rem;
@@ -8492,7 +8497,7 @@ font-family: 'Londrina Solid', sans-serif;
   opacity: .7;
 }
 .lgx-single-speaker:hover {
-  background: #554bb9;
+  background: #1976d2;
   overflow: hidden;
 }
 .lgx-single-speaker:hover:after {
@@ -8535,7 +8540,7 @@ font-family: 'Londrina Solid', sans-serif;
   transition-duration: 0.3s;
 }
 .lgx-single-speaker-circle figure figcaption {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -8556,7 +8561,7 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 39px;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
-  color: #554bb9;
+  color: #1976d2;
   padding: 0 .3rem;
 }
 .lgx-single-speaker-circle .social-group {
@@ -8588,7 +8593,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-single-speaker-circle .speaker-info .subtitle {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-size: 1.4rem;
@@ -8600,7 +8605,7 @@ font-family: 'Londrina Solid', sans-serif;
   opacity: .7;
 }
 .lgx-single-speaker-circle:hover {
-  background: #554bb9;
+  background: #1976d2;
   overflow: hidden;
 }
 .lgx-single-speaker-circle:hover:after {
@@ -8646,11 +8651,11 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 39px;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
-  color: #554bb9;
+  color: #1976d2;
   padding: 0 .3rem;
 }
 .lgx-single-speaker2 .social-group {
-  background: #554bb9;
+  background: #1976d2;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -8682,7 +8687,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-single-speaker2 .speaker-info .subtitle {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-size: 1.4rem;
@@ -8741,7 +8746,7 @@ font-family: 'Londrina Solid', sans-serif;
   padding: 1.5rem 1rem 2rem;
 }
 .lgx-single-speaker3:hover figure {
-  background: #554bb9;
+  background: #1976d2;
   border-radius: 0;
 }
 .lgx-single-speaker3:hover figure a.profile-img img {
@@ -8794,7 +8799,7 @@ font-family: 'Londrina Solid', sans-serif;
   background-size: cover;
 }
 .lgx-milestone-about .lgx-inner {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
   padding: 16.6rem 0;
 }
 .lgx-milestone .lgx-counter-area {
@@ -8814,7 +8819,7 @@ font-family: 'Londrina Solid', sans-serif;
   font-size: 10.2rem;
   line-height: 15.299999999999999rem;
   margin: 0;
-  color: #554bb9;
+  color: #1976d2;
   opacity: .4;
 }
 .lgx-milestone .lgx-counter-area .counter-text {
@@ -8826,7 +8831,7 @@ font-family: 'Londrina Solid', sans-serif;
   left: 0;
 }
 .lgx-milestone .lgx-counter-area .counter-text .lgx-counter {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   display: block;
   font-size: 68px;
   font-size: 6.8rem;
@@ -8835,7 +8840,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: #fff;
 }
 .lgx-milestone .lgx-counter-area .counter-text small {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 30px;
@@ -8849,7 +8854,7 @@ font-family: 'Londrina Solid', sans-serif;
 /* 2.7  Schedule SECTION
 ---------------------------------------------------------------------*/
 .lgx-schedule {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-schedule .lgx-inner {
   background: url('../img/schedule-bg-pattern.png') bottom center no-repeat;
@@ -8927,7 +8932,7 @@ font-family: 'Londrina Solid', sans-serif;
   background: #6ba229;
 }
 .lgx-tab .lgx-nav-colorful .active {
-  background: #554bb9 !important;
+  background: #1976d2 !important;
 }
 .lgx-tab .lgx-nav-colorful .active a:focus,
 .lgx-tab .lgx-nav-colorful .active a:hover {
@@ -8938,7 +8943,7 @@ font-family: 'Londrina Solid', sans-serif;
   width: 75%;
 }
 .lgx-tab .nav-pills {
-  background: #554bb9;
+  background: #1976d2;
   text-align: right;
   display: inline-block;
   margin-bottom: 2.6rem;
@@ -9109,8 +9114,8 @@ font-family: 'Londrina Solid', sans-serif;
   box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.1);
 }
 .lgx-tab-content {
-  background: rgba(85, 75, 185, 0.1);
-  border: 2px solid #554bb9;
+  background: rgba(25, 118, 210, 0.1);
+  border: 2px solid #1976d2;
   padding: 1rem;
   padding-bottom: .5rem;
   -webkit-box-shadow: 0 13px 35px rgba(0, 0, 0, 0.1);
@@ -9179,7 +9184,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-panel .lgx-single-schedule .schedule-info .time {
   background: rgba(239, 165, 6, 0.1);
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -9196,7 +9201,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: #efa506;
 }
 .lgx-panel .lgx-single-schedule .schedule-info .title {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -9220,7 +9225,7 @@ font-family: 'Londrina Solid', sans-serif;
   margin-bottom: 1.6rem;
 }
 .lgx-panel .panel-body .location {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -9230,10 +9235,10 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-panel .panel-body .location strong {
   font-weight: 700;
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-panel .panel-body .location span {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-panel:last-child {
   border-bottom: 1px solid transparent;
@@ -9377,7 +9382,7 @@ font-family: 'Londrina Solid', sans-serif;
   font-size: 2.6rem;
   line-height: 3.9000000000000004rem;
   font-weight: 700;
-  color: #554bb9;
+  color: #1976d2;
   text-transform: uppercase;
   text-align: center;
   margin: 6.8rem 0 2rem 0;
@@ -9441,7 +9446,7 @@ font-family: 'Londrina Solid', sans-serif;
   border: 5px solid #ddd;
 }
 .sponsors-area-border .single:hover {
-  border: 5px solid #554bb9;
+  border: 5px solid #1976d2;
 }
 .sponsors-area-noshadow .single {
   box-shadow: none;
@@ -9452,7 +9457,7 @@ font-family: 'Londrina Solid', sans-serif;
   box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.05);
 }
 .sponsors-area-colorfull .single {
-  background: #554bb9;
+  background: #1976d2;
 }
 .sponsors-area-colorfull .single img {
   -webkit-filter: grayscale(40%);
@@ -9799,7 +9804,7 @@ font-family: 'Londrina Solid', sans-serif;
 /* 2.10 Registration
 ---------------------------------------------------------------------*/
 .lgx-registration {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-registration2 {
   background: url('http://placehold.it/1920x1000') bottom center no-repeat fixed;
@@ -9809,7 +9814,7 @@ font-family: 'Londrina Solid', sans-serif;
   background-size: cover;
 }
 .lgx-registration2 .lgx-inner {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
 }
 .lgx-registration3 {
   background: #1b273d;
@@ -9906,13 +9911,13 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-registration-area .lgx-single-registration .single-top p {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
   letter-spacing: .06rem;
   opacity: .7;
 }
 .lgx-registration-area .lgx-single-registration .single-top .price {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #efa506;
   font-size: 68px;
   line-height: 102px;
@@ -9922,7 +9927,7 @@ font-family: 'Londrina Solid', sans-serif;
   font-weight: 900;
 }
 .lgx-registration-area .lgx-single-registration .single-top .price i {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -9934,7 +9939,7 @@ font-family: 'Londrina Solid', sans-serif;
   top: -30px;
 }
 .lgx-registration-area .lgx-single-registration .single-top .price span {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-size: 2rem;
@@ -9969,7 +9974,7 @@ font-family: 'Londrina Solid', sans-serif;
   animation-timing-function: linear;
 }
 .lgx-registration-area .lgx-single-registration:hover .single-top .title {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-area .lgx-single-registration:hover .single-top .title a {
   color: inherit;
@@ -10007,10 +10012,10 @@ font-family: 'Londrina Solid', sans-serif;
   color: #efa506;
 }
 .lgx-registration-area3 .lgx-single-registration:nth-child(2) {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-registration-area3 .lgx-single-registration:nth-child(2) .single-top .title {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-area3 .lgx-single-registration:nth-child(3) {
   background: #00acee;
@@ -10059,7 +10064,7 @@ font-family: 'Londrina Solid', sans-serif;
   align-items: center;
 }
 .lgx-registration-area .lgx-single-registration-christmas {
-  background: #554bb9;
+  background: #1976d2;
   -moz-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -10100,7 +10105,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-registration-area .lgx-single-registration-christmas .single-top .price {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #efa506;
   font-size: 68px;
   line-height: 102px;
@@ -10114,7 +10119,7 @@ font-family: 'Londrina Solid', sans-serif;
   font-style: normal;
 }
 .lgx-registration-area .lgx-single-registration-christmas .single-top .price span {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -10139,7 +10144,7 @@ font-family: 'Londrina Solid', sans-serif;
   border-radius: 12px 0 0 12px;
 }
 .lgx-registration-area .lgx-single-registration-christmas:nth-child(1) .single-top .title {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-area .lgx-single-registration-christmas:nth-child(1) .single-top .title a {
   color: inherit;
@@ -10173,7 +10178,7 @@ font-family: 'Londrina Solid', sans-serif;
   animation-timing-function: linear;
 }
 .lgx-registration-area .lgx-single-registration-christmas:hover .single-top .title {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-area .lgx-single-registration-christmas:hover .single-top .title a {
   color: inherit;
@@ -10196,16 +10201,16 @@ font-family: 'Londrina Solid', sans-serif;
   background: #efa506;
 }
 .lgx-registration-area .recommended .lgx-btn {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-registration-area .recommended .lgx-btn:hover {
   background: #efa506;
 }
 .lgx-registration-area .recommended .single-top .title {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-area .recommended .single-top .price {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-form-box {
   /*::-ms-input-placeholder { !* Microsoft Edge *!
@@ -10268,7 +10273,7 @@ font-family: 'Londrina Solid', sans-serif;
 .lgx-registration-form-box input.wpcf7-form-control:focus,
 .lgx-registration-form-box input.form-control:focus {
   background: rgba(255, 255, 255, 0.7);
-  color: #554bb9;
+  color: #1976d2;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -10286,7 +10291,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-registration-form-box select.wpcf7-select option,
 .lgx-registration-form-box select.lgx-select option {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-registration-form-box .wpcf7-form-control.wpcf7-submit,
 .lgx-registration-form-box .wpcf7-form-control.lgx-submit,
@@ -10296,7 +10301,7 @@ font-family: 'Londrina Solid', sans-serif;
   width: 100%;
   background: #efa506;
   margin-top: 2rem;
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-registration-form-box .wpcf7-form-control.wpcf7-submit:hover,
 .lgx-registration-form-box .wpcf7-form-control.lgx-submit:hover,
@@ -10313,7 +10318,7 @@ font-family: 'Londrina Solid', sans-serif;
   background-size: cover;
 }
 .lgx-registration-simple .lgx-inner {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
 }
 .lgx-registration-simple {
   text-align: center;
@@ -10328,7 +10333,7 @@ font-family: 'Londrina Solid', sans-serif;
 /* 2.11 Countdown
 ---------------------------------------------------------------------*/
 .lgx-inner-countdown {
-  background: #554bb9;
+  background: #1976d2;
   display: flex;
 }
 .lgx-inner-countdown .countdown-left-info {
@@ -10342,12 +10347,12 @@ font-family: 'Londrina Solid', sans-serif;
   font-weight: 700;
 }
 .lgx-inner-countdown .countdown-left-info .subtitle {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 }
 .lgx-inner-countdown .countdown-left-info .date {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .lgx-inner-countdown .countdown-right {
   text-align: center;
@@ -10359,7 +10364,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 #lgx-countdown span {
   text-align: center;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 68px;
   line-height: 102px;
   font-size: 6.8rem;
@@ -10376,7 +10381,7 @@ font-family: 'Londrina Solid', sans-serif;
   margin-right: 0;
 }
 #lgx-countdown i {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-size: 2rem;
@@ -10410,7 +10415,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-banner-info-circle #lgx-countdown span {
   text-align: center;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 42px;
   line-height: 63px;
   font-size: 4.2rem;
@@ -10426,7 +10431,7 @@ font-family: 'Londrina Solid', sans-serif;
   margin-right: 0;
 }
 .lgx-banner-info-circle #lgx-countdown i {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-size: 1.4rem;
@@ -10468,7 +10473,7 @@ font-family: 'Londrina Solid', sans-serif;
   background-size: cover;
 }
 .lgx-countdowns3 .lgx-inner {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
 }
 .lgx-countdowns4 {
   background: url('http://placehold.it/1920x800') top center no-repeat fixed;
@@ -10490,7 +10495,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-countdown-area-squre #lgx-countdown span {
   text-align: center;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 68px;
   line-height: 102px;
   font-size: 6.8rem;
@@ -10513,7 +10518,7 @@ font-family: 'Londrina Solid', sans-serif;
   border-radius: 0 6px 6px 0;
 }
 .lgx-countdown-area-squre #lgx-countdown i {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-size: 2rem;
@@ -10715,7 +10720,7 @@ font-family: 'Londrina Solid', sans-serif;
   transition: 0.4s ease;
 }
 .lgx-gallery-single figure figcaption {
-  background: rgba(85, 75, 185, 0.9);
+  background: rgba(25, 118, 210, 0.9);
   position: absolute;
   left: 5%;
   top: 5%;
@@ -10816,11 +10821,11 @@ blockquote.lgx-testi-single p {
   line-height: inherit;
   position: relative;
   z-index: 1;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 blockquote.lgx-testi-single span {
-font-family: 'Londrina Solid', sans-serif;
-  color: #554bb9;
+  font-family: 'Oswald', sans-serif;
+  color: #1976d2;
   display: block;
   margin-bottom: 1.5rem;
 }
@@ -10912,7 +10917,7 @@ blockquote.lgx-testi-single:before {
   top: 48px;
 }
 .lgx-owltestimonial-box blockquote.lgx-testi-single:hover {
-  background: #554bb9;
+  background: #1976d2;
 }
 .lgx-owltestimonial-box blockquote.lgx-testi-single:hover p {
   color: #fff;
@@ -10936,7 +10941,7 @@ blockquote.lgx-testi-single:before {
   text-align: center;
 }
 .contact-info .lgx-address-box .address .title {
-  color: #554bb9;
+  color: #1976d2;
   font-weight: 400;
   letter-spacing: normal;
   margin: 0;
@@ -11285,7 +11290,7 @@ blockquote.lgx-testi-single:before {
   background-size: cover;
 }
 .lgx-video2 .lgx-inner {
-  background: rgba(85, 75, 185, 0.8);
+  background: rgba(25, 118, 210, 0.8);
 }
 .lgx-video-christmas {
   background: url('http://placehold.it/1920x800') center center no-repeat;
@@ -11295,7 +11300,7 @@ blockquote.lgx-testi-single:before {
   background-size: cover;
 }
 .lgx-video-christmas .lgx-inner {
-  background: rgba(85, 75, 185, 0.5);
+  background: rgba(25, 118, 210, 0.5);
 }
 /*.lgx-news-christmas {
   .lgx-inner {
@@ -11350,7 +11355,7 @@ blockquote.lgx-testi-single:before {
 }
 .lgx-video-area figure figcaption .video-icon:hover i {
   background: #fff;
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-video-area figure figcaption .video-icon:hover:before {
   border: 5px solid rgba(255, 255, 255, 0);
@@ -11446,7 +11451,7 @@ blockquote.lgx-testi-single:before {
   line-height: 6.300000000000001rem;
 }
 .lgx-leftright-area .lgx-leftright-info .info {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -11678,12 +11683,12 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-subscribe-form .form-control {
   background: rgba(255, 255, 255, 0.8);
-  color: #554bb9;
+  color: #1976d2;
   height: 56px;
 }
 .lgx-subscribe-form .form-control:focus {
   background: #ffffff;
-  border-color: #554bb9;
+  border-color: #1976d2;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -11708,7 +11713,7 @@ font-family: 'Londrina Solid', sans-serif;
   text-align: center;
 }
 .lgx-footer .lgx-inner-footer {
-  background: rgba(85, 75, 185, 0.95);
+  background: rgba(25, 118, 210, 0.95);
 }
 .lgx-footer-music {
   background: url('http://placehold.it/1920x850') bottom center no-repeat;
@@ -11761,8 +11766,8 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 45px;
 }
 .lgx-social-footer li:hover {
-  background: #554bb9;
-  color: #554bb9;
+  background: #1976d2;
+  color: #1976d2;
   border-radius: 50%;
 }
 .lgx-social-footer li:hover a {
@@ -11770,7 +11775,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-social-footer:hover > li {
-  color: #554bb9;
+  color: #1976d2;
   opacity: 0.3;
 }
 .lgx-social-footer:hover > li a {
@@ -11813,7 +11818,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-footer-single address i {
   overflow: hidden;
-  color: #554bb9;
+  color: #1976d2;
   margin-right: 5px;
   opacity: .4;
 }
@@ -11821,7 +11826,7 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 2.5rem;
 }
 .lgx-footer-single .lgx-address-info i {
-  color: #554bb9;
+  color: #1976d2;
   margin-right: 1rem;
   opacity: .4;
 }
@@ -11851,7 +11856,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: #efa506;
 }
 .lgx-footer-single .footer-title {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -11863,7 +11868,7 @@ font-family: 'Londrina Solid', sans-serif;
   letter-spacing: .08rem;
 }
 .lgx-footer-single ul li {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -11887,14 +11892,14 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-footer-single .opening-time-single {
   margin-bottom: 1rem;
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .lgx-footer-single .opening-time-single span {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: block;
 }
 .lgx-footer-single .opening-time-single span i {
-  color: #554bb9;
+  color: #1976d2;
   font-style: normal;
   font-weight: 700;
   opacity: .4;
@@ -11912,7 +11917,7 @@ font-family: 'Londrina Solid', sans-serif;
   padding-bottom: 4.2rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-size: 1.4rem;
@@ -12078,7 +12083,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-post-wrapper .lgx-single-speacial:hover .speacial-info .title:hover,
 .lgx-page-wrapper .lgx-single-speacial:hover .speacial-info .title:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-post-wrapper .lgx-single-speacial:hover .speacial-info .title:hover a,
 .lgx-page-wrapper .lgx-single-speacial:hover .speacial-info .title:hover a {
@@ -12107,7 +12112,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: inherit;
 }
 .lgx-post-wrapper .speaker-info .subtitle {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-size: 1.6rem;
@@ -12129,8 +12134,8 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 5.5rem;
 }
 .lgx-post-wrapper article header .subtitle {
-font-family: 'Londrina Solid', sans-serif;
-  color: #554bb9;
+  font-family: 'Poppins', sans-serif;
+  color: #1976d2;
   font-size: 26px;
   line-height: 39px;
   font-size: 2.6rem;
@@ -12139,17 +12144,17 @@ font-family: 'Londrina Solid', sans-serif;
   margin-top: .5rem;
 }
 .lgx-post-wrapper article header .menu-price {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 26px;
   font-size: 2.6rem;
   text-transform: uppercase;
   text-align: right;
   margin-top: .8rem;
-  color: #554bb9;
+  color: #1976d2;
   font-weight: 700;
 }
 .lgx-post-wrapper article header .menu-price span {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #1b273d;
   font-weight: 300;
   font-size: 16px;
@@ -12199,7 +12204,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: #bd081c;
 }
 .lgx-post-wrapper article header .social-group li a:hover {
-  color: #554bb9;
+  color: #1976d2;
 }
 .lgx-post-wrapper article header .social-group li a:hover i {
   color: inherit;
@@ -12208,7 +12213,7 @@ font-family: 'Londrina Solid', sans-serif;
   padding-top: 1.5rem;
 }
 .lgx-post-wrapper article header .hits-area .date {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   margin-right: 2rem;
   display: inline-block;
@@ -12218,7 +12223,7 @@ font-family: 'Londrina Solid', sans-serif;
   margin-right: 1.5rem;
 }
 .lgx-post-wrapper article header .hits-area .date a i {
-  color: #554bb9;
+  color: #1976d2;
   margin-right: 4px;
   opacity: .5;
 }
@@ -12252,10 +12257,10 @@ font-family: 'Londrina Solid', sans-serif;
   padding: 1.5rem;
 }
 .lgx-post-wrapper article footer .title {
-font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  color: #554bb9;
+  color: #1976d2;
   border-bottom: 1px solid rgba(52, 61, 71, 0.1);
   -webkit-background-clip: padding-box;
   /* for Safari */
@@ -12269,7 +12274,7 @@ font-family: 'Londrina Solid', sans-serif;
   height: 40px;
   width: 40px;
   background: #fff;
-  color: #554bb9;
+  color: #1976d2;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -12279,7 +12284,7 @@ font-family: 'Londrina Solid', sans-serif;
   line-height: 40px;
 }
 .lgx-post-wrapper article footer .lgx-share li a:hover {
-  background: #554bb9;
+  background: #1976d2;
   color: #fff;
 }
 .lgx-page-wrapper-none {
