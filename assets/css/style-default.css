@@ -6826,6 +6826,7 @@ font-family: 'Londrina Solid', cursive;
 }
 .lgx-banner-info {
   color: #fff;
+  position: absolute;
 }
 .lgx-banner-info .circular-countdown-area {
   max-width: 700px;
@@ -7022,7 +7023,7 @@ font-family: 'Londrina Solid', sans-serif;
   top: 50%;
 }
 .lgx-countdown-area{
-  text-align: center;
+  margin-top: 1rem;
 }
 .lgx-banner-info-date .location {
 font-family: 'Londrina Solid', sans-serif;
@@ -10383,7 +10384,7 @@ font-family: 'Londrina Solid', sans-serif;
   margin-top: 4.2rem;
 }
 #lgx-countdown {
-  margin-top: -15px;
+  margin-top: 35px;
 }
 #lgx-countdown span {
   text-align: center;
@@ -11488,28 +11489,35 @@ font-family: 'Londrina Solid', sans-serif;
   border-radius: 1rem;
 }
 .lgx-leftright-area .lgx-venu-img {
-  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/Untitled%20design%20%2815%29.png') center center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/kidcartoon.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
 }
 .lgx-leftright-area .lgx-transport-img {
-  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/promo.png') center center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/promo-kids.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
 }
 .lgx-leftright-area .lgx-hotel-img {
-  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/kreatifitas.png') center center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/kreatifitas-kids.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
 }
 .lgx-travelinfo-christmas .lgx-inner {
-  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/parentingtalks.png') bottom center repeat-x;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/parenting.png') bottom center repeat-x;
+  -webkit-background-size: auto auto, cover;
+  -o-background-size: auto auto, cover;
+  -moz-background-size: auto auto, cover;
+  background-size: auto auto, cover;
+}
+.lgx-leftright-area .lgx-transport-parenting {
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/parenting.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
