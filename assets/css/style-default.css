@@ -8372,14 +8372,11 @@ font-family: 'Londrina Solid', sans-serif;
 /* 2.5 Speakers SECTION
 ---------------------------------------------------------------------*/
 .lgx-speakers2 {
-  background: url('http://placehold.it/1920x1000') bottom left no-repeat fixed;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/asset%20web%20KFf-07.png') bottom left no-repeat fixed;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
-}
-.lgx-speakers2 .lgx-inner {
-  background: rgba(27, 39, 61, 0.7);
 }
 .lgx-speakers3 {
   background: url('http://placehold.it/1920x1000') bottom left no-repeat fixed;
