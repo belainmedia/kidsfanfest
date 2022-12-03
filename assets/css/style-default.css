@@ -547,7 +547,8 @@ button:hover:after,
 }
 .lgx-btn-white {
   background: #fff;
-  color: #554bb9;
+  color: #ea5858;
+  border-radius: 1rem;
 }
 .lgx-btn-white:after {
   background: url(../img/dots4.png) 0 0 repeat;
