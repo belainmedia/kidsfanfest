@@ -8875,10 +8875,14 @@ font-family: 'Londrina Solid', sans-serif;
 /* 2.7  Schedule SECTION
 ---------------------------------------------------------------------*/
 .lgx-schedule {
-  background: #554bb9;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/asset%20web%20KFf-04.png') top center no-repeat;
+  -webkit-background-size: 100% auto, cover;
+  -o-background-size: 100% auto, cover;
+  -moz-background-size: 100% auto, cover;
+  background-size: 100% auto, cover;
 }
 .lgx-schedule .lgx-inner {
-  background: url('../img/schedule-bg-pattern.png') bottom center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/asset%20web%20KFf-09.png') bottom center no-repeat;
   -webkit-background-size: 100% auto, cover;
   -o-background-size: 100% auto, cover;
   -moz-background-size: 100% auto, cover;
