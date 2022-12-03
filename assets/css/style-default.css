@@ -284,6 +284,21 @@ blockquote:before {
   opacity: .3;
   text-align: center;
 }
+.text-white{
+  color: #FFFFFF !important;
+}
+
+.text-red{
+  color: #eb5857 !important;
+}
+.text-kuning{
+  color: #f7ae0e !important;
+}
+
+
+.text-green{
+  color: green !important;
+}
 .lgx-social {
   font-size: 26px;
   margin-left: 0;
@@ -513,10 +528,13 @@ button:hover:after,
   font-size: 12px;
 }
 .lgx-btn-red {
-  background: #ec398b;
+  background: #eb5857;
 }
 .lgx-btn-yellow {
   background: #efa506;
+}
+.lgx-btn-green {
+  background: green;
 }
 .lgx-btn-black {
   background: #1b273d;
@@ -6766,7 +6784,7 @@ font-family: 'Londrina Solid', cursive;
   background-size: cover;
 }
 .lgx-banner14 {
-  background: url('https://hijrahfest.com/application/views/front/fullwidth/assets/img/gallery/32.jpg') top center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/bg-home.png') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -6793,6 +6811,7 @@ font-family: 'Londrina Solid', cursive;
   -moz-background-size: cover;
   background-size: cover;
 }
+
 .lgx-banner-parallax {
   background: url('http://placehold.it/1920x912') top center no-repeat;
   -webkit-background-size: cover;
@@ -6999,6 +7018,9 @@ font-family: 'Londrina Solid', sans-serif;
   letter-spacing: normal;
   position: absolute;
   top: 50%;
+}
+.lgx-countdown-area{
+  text-align: center;
 }
 .lgx-banner-info-date .location {
 font-family: 'Londrina Solid', sans-serif;
@@ -8124,7 +8146,7 @@ lgx-zoomInUp
   background: #fff;
 }
 .lgx-about2 {
-  background: url('http://placehold.it/1920x700') bottom no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/bg-second.png') bottom no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
@@ -8146,6 +8168,10 @@ lgx-zoomInUp
 }
 .lgx-about-img {
   margin-right: 5%;
+}
+.heading.text-light{
+  color: #fff !important;
+
 }
 .lgx-about-threeimg {
   position: relative;
@@ -8270,6 +8296,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-about-content .section-btn-area .lgx-btn {
   margin: 0 .3rem;
+  border-radius: 1rem;
 }
 .lgx-about-content-area .lgx-heading {
   margin-bottom: 2.6rem;
@@ -11456,30 +11483,31 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-leftright-area .lgx-leftright-info .lgx-btn {
   margin-top: 2.6rem;
+  border-radius: 1rem;
 }
 .lgx-leftright-area .lgx-venu-img {
-  background: url('https://www.hijrahfest.com/application/views/front/fullwidth/assets/img/gallery/37.jpg') center center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/Untitled%20design%20%2815%29.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
 }
 .lgx-leftright-area .lgx-transport-img {
-  background: url('https://www.hijrahfest.com/application/views/front/fullwidth/assets/img/gallery/40.jpg') center center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/promo.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
 }
 .lgx-leftright-area .lgx-hotel-img {
-  background: url('https://www.hijrahfest.com/application/views/front/fullwidth/assets/img/gallery/22.jpg') center center no-repeat;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/kreatifitas.png') center center no-repeat;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
   background-size: auto auto, cover;
 }
 .lgx-travelinfo-christmas .lgx-inner {
-  background: url('../img/ice-up-brand.png') bottom center repeat-x;
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/parentingtalks.png') bottom center repeat-x;
   -webkit-background-size: auto auto, cover;
   -o-background-size: auto auto, cover;
   -moz-background-size: auto auto, cover;
