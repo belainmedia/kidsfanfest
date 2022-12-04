@@ -9831,8 +9831,8 @@ font-family: 'Londrina Solid', sans-serif;
 .lgx-registration {
   background: #554bb9;
 }
-.lgx-registration2 {
-  background: url('http://placehold.it/1920x1000') bottom center no-repeat fixed;
+.lgx-registration {
+  background: url('https://kidsfanfest.sgp1.digitaloceanspaces.com/img/bg/asset%20web%20KFf-08.png') bottom center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -9913,6 +9913,7 @@ font-family: 'Londrina Solid', sans-serif;
 }
 .lgx-registration-area .lgx-single-registration .lgx-btn {
   background: #ec398b;
+  border-radius: 1rem;
 }
 .lgx-registration-area .lgx-single-registration .lgx-btn:hover {
   background: #efa506;
@@ -9945,7 +9946,7 @@ font-family: 'Londrina Solid', sans-serif;
   color: #efa506;
   font-size: 68px;
   line-height: 102px;
-  font-size: 6.8rem;
+  font-size: 2.5rem;
   line-height: 10.2rem;
   line-height: 8rem;
   font-weight: 900;
